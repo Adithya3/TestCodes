@@ -21,6 +21,7 @@ public class BinarySearch {
     private static boolean binarySearchMid(int[] sortedArray, int searchValue) {
         int startIndex = 0, lastIndex = sortedArray.length - 1, MidIndex;
         return false;
+        //just to overwrite the previous commit.
     }
 
     public static void main(String[] args) {
