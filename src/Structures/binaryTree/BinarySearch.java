@@ -1,4 +1,4 @@
-package random;
+package Structures.binaryTree;
 
 public class BinarySearch {
     private static boolean binarySearch(int[] sortedArray, int searchValue) {

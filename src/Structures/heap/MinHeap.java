@@ -1,4 +1,6 @@
-package interview;
+package Structures.heap;
+
+import Structures.heap.BinaryNode;
 
 public class MinHeap {
     BinaryNode root;

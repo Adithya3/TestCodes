@@ -1,7 +1,4 @@
-package interview.leetcodeChallenge.math;
-
-import java.util.LinkedList;
-import java.util.List;
+package leetcode.math;
 
 public class FizzBuzz {
     public static void solution0(int value) {

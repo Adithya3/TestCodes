@@ -1,4 +1,4 @@
-package interview;
+package Structures.binaryTree;
 
 public class BinaryNode {
     public  int value;

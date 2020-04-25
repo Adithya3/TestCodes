@@ -1,4 +1,4 @@
-package interview;
+package interview.amazon;
 
 import java.util.LinkedList;
 import java.util.Queue;

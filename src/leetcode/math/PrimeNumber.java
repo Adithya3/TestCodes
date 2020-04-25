@@ -1,4 +1,4 @@
-package interview.leetcodeChallenge.math;
+package leetcode.math;
 
 import java.util.HashSet;
 

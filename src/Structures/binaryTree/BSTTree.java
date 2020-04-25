@@ -1,4 +1,6 @@
-package interview;
+package Structures.binaryTree;
+
+import Structures.binaryTree.BinaryNode;
 
 public class BSTTree {
     public BinaryNode root;
