@@ -1,2 +1,3 @@
 *.class
 .idea/
+out/production/TestCodes/META-INF/TestCodes.kotlin_module
