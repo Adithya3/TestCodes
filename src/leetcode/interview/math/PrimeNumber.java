@@ -1,4 +1,4 @@
-package leetcode.math;
+package leetcode.interview.math;
 
 import java.util.HashSet;
 

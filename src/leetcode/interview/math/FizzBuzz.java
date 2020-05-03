@@ -1,4 +1,4 @@
-package leetcode.math;
+package leetcode.interview.math;
 
 public class FizzBuzz {
     public static void solution0(int value) {

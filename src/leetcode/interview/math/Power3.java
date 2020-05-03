@@ -1,4 +1,4 @@
-package leetcode.math;
+package leetcode.interview.math;
 
 public class Power3 {
     public static boolean solution(int n) {
