@@ -5,7 +5,7 @@ import java.util.List;
 
 public class hashMapMain {
     public static void main(String[] args) {
-        HashMap hashMap=new HashMap();
+        HashMapGeneric<String,String> hashMap=new HashMapGeneric<String, String>();
         hashMap.put("ding","dong");
         hashMap.put("ming","mong");
         hashMap.put("adithya","boppana");
