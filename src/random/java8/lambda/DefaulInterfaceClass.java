@@ -1,4 +1,4 @@
-package java8;
+package random.java8.lambda;
 
 interface SomeInterface{
     default void printmenow(){
