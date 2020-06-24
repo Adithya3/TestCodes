@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Encoding">
-    <file url="file://C:/Website/COU/src/components/BYOD/byodAskAQuestion/byodAskAQuestion.component.html" charset="UTF-8" />
-    <file url="file://C:/Website/COU/src/components/BYOD/byodAskAQuestion/byodAskAQuestion.component.ts" charset="UTF-8" />
-    <file url="file://C:/Website/COU/src/components/Question/questionForm/questionForm.component.ts" charset="UTF-8" />
-    <file url="file://C:/Website/COU/src/pages/question/question.service.ts" charset="UTF-8" />
-  </component>
-</project>
