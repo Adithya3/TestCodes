@@ -4,19 +4,28 @@ import crackingCodingInterview.lists.starter.SingleLinkedListNode;
 
 public class PartitionAroundValue {
     public static SingleLinkedListNode solution0(SingleLinkedListNode start, int value) {
-        SingleLinkedListNode belowValue = null, current = start,temp;
-        while (current != null) {
-            if (current.value < value) {
-                if (belowValue == null) {
-                    belowValue = new SingleLinkedListNode(current.value);
+        SingleLinkedListNode beforeValuePointer = null, afterValuePointer = null, afterValueStart = null, beforeValueStart = null, orginalPointer = start;
+        while (orginalPointer != null) {
+            if (orginalPointer.value < value) {
+                if (beforeValueStart == null) {
+                    beforeValueStart = new SingleLinkedListNode(orginalPointer.value);
+                    beforeValuePointer = beforeValueStart;
                 } else {
-                    belowValue.next = new SingleLinkedListNode(current.value);
+                    beforeValuePointer.next = new SingleLinkedListNode(orginalPointer.value);
+                    beforeValuePointer = beforeValuePointer.next;
+                }
+            } else {
+                if (afterValueStart == null) {
+                    afterValueStart = new SingleLinkedListNode(orginalPointer.value);
+                    afterValuePointer = afterValueStart;
+                } else {
+                    afterValuePointer.next = new SingleLinkedListNode(orginalPointer.value);
+                    afterValuePointer = afterValuePointer.next;
                 }
             }
-            temp=current;
-            current=current.next;
-            temp.next=null;
+            orginalPointer = orginalPointer.next;
         }
-        return belowValue;
+        beforeValuePointer.next = afterValueStart;
+        return beforeValueStart;
     }
 }
