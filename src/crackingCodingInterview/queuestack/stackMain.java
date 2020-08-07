@@ -1,24 +1,18 @@
 package crackingCodingInterview.queuestack;
 
+import java.util.Arrays;
+
 public class stackMain {
     public static void main(String[] args) {
-        QueueByStack ateststack = new QueueByStack();
-        ateststack.push(8);
-        ateststack.push(3);
-        ateststack.push(5);
-        ateststack.push(99);
-        ateststack.push(4);
-        ateststack.push(2);
-        ateststack.push(56);
-        ateststack.push(66);
-        ateststack.push(81);
-        ateststack.push(6);
-        System.out.println(ateststack.pop());
-        System.out.println(ateststack.pop());
-        System.out.println(ateststack.pop());
-        System.out.println(ateststack.pop());
-        System.out.println(ateststack.pop());
-        System.out.println(ateststack.pop());
-        System.out.println(ateststack.pop());
+        CircularQueue cq = new CircularQueue(3);
+        cq.push(9);
+        cq.push(7);
+        cq.push(3);
+        System.out.println(cq.pop());
+        System.out.println(cq.pop());
+        cq.push(8);
+        cq.push(6);
+        System.out.println(cq.pop());
+        System.out.println(Arrays.toString(cq.getQueue()));
     }
 }
