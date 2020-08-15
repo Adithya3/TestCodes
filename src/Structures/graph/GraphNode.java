@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GraphNode {
-    int value;
-    List<GraphNode> edges = new ArrayList<GraphNode>();
+    public int value;
+    public List<GraphNode> edges = new ArrayList<GraphNode>();
 
     public GraphNode(int value) {
         this.value = value;
