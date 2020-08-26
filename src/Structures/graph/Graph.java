@@ -4,6 +4,8 @@ package Structures.graph;
 //1)Every node should have a unique value i.e no two nodes will have the same value
 //2)Adding a edge is always bi directional or only has undirectional edges.
 
+import java.util.List;
+
 public interface Graph {
     public GraphNode addNode(int nodeValue);
 
@@ -14,4 +16,6 @@ public interface Graph {
     public boolean removeEdge(int nodeValue1, int nodeValue2);
 
     public void dumpGraph();
+
+    public List<GraphNode> giveMeNodes();
 }

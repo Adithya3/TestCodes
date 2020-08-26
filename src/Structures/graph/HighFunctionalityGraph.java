@@ -1,6 +1,8 @@
 package Structures.graph;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 
 public class HighFunctionalityGraph implements Graph {
 
@@ -128,5 +130,11 @@ public class HighFunctionalityGraph implements Graph {
             }
         }
     }
+
+    @Override
+    public List<GraphNode> giveMeNodes() {
+        return new ArrayList<>(nodeSet);
+    }
+
 
 }
